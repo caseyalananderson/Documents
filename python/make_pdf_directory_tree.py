@@ -3,6 +3,9 @@ import os
 import numpy as np
 import sys, getopt
 import glob
+import subprocess
+import shutil
+
 
 ########################################################################
 # Count the number of subdirs
@@ -49,8 +52,22 @@ def main(argv):
         print('Input file is %s' % inputfile)
         print('Output file is %s' % outfile)
 
+        tmpdir = 'tmp'
+
+        if not os.path.exists(tmpdir):
+            os.makedirs(tmpdir)
+
+        # First dir parse
         first_dirs = write_dir_tree(topdir)
+        
+        # make secondary trees
         make_sub_trees(topdir, first_dirs, outfile)
+
+        # Create the latex file
+        create_main_latex_file(outfile)
+
+        # compile latex
+        compile_main_latex_file(outfile)
 
         return
 
@@ -60,14 +77,20 @@ def make_sub_trees(main_dir, first_dirs, outfile):
     Make directory tree of each subd
     """
 
+    tmpfile = 'tmp'
+
+    main_dir_tex = os.path.join(tmpfile, 'main_input.tex')
+
     exclude = set(['.git','media'])
 
-    with open(outfile,'w') as z:
+    with open(main_dir_tex,'w') as z:
         for topdir in first_dirs:
 
             this_top_dir = os.path.join(main_dir, topdir)
+
+            dir_tree_input_name = os.path.join(os.path.basename(this_top_dir) + 'dirtree.tex')
             
-            dir_tree_name = os.path.join(os.path.basename(this_top_dir) + 'dirtree.tex')
+            dir_tree_name = os.path.join(tmpfile, dir_tree_input_name)
             
             i = 0
             end_bracket_locations = []
@@ -84,7 +107,7 @@ def make_sub_trees(main_dir, first_dirs, outfile):
 		section_name = fix_file_string(os.path.basename(this_top_dir))
 
 		z.write('\section{%s}\n' % section_name)
-		z.write('\\input{%s}\n' % dir_tree_name)
+		z.write('\\input{%s}\n' % dir_tree_input_name)
 		with open(dir_tree_name,'w') as g:
 	
 			write_preamble(g)
@@ -171,9 +194,9 @@ def write_dir_tree(main_dir):
 	# * full tree ignores files for now TODO: fix this
 	##############################################################
 	
-	with open('directory_tree_full.tex','w') as g:
+	with open('tmp/directory_tree_full.tex','w') as g:
 
-		with open('directory_tree_dirs.tex','w') as k:
+		with open('tmp/directory_tree_dirs.tex','w') as k:
 
 			write_preamble(g)
 			write_preamble(k)
@@ -284,11 +307,93 @@ def write_preamble(g):
 	return
 
 
+def create_main_latex_file(outfile):
+
+    tmpfile='tmp'
+    
+    full_outfile = os.path.join(tmpfile, outfile)
+
+    with open(full_outfile, 'w') as f:
+        f.write('''
+
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+\usepackage{forest}
+\usepackage[margin=0.5in]{geometry}
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+\usepackage{listings}
+
+% Python style for highlighting
+\\newcommand\pythonstyle{\lstset{
+language=Python,
+%basicstyle=\\ttm,
+basicstyle=\small,
+otherkeywords={self},             % Add keywords here
+keywordstyle=\\ttb\color{deepblue},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\\ttb\color{deepred},    % Custom highlighting style
+stringstyle=\color{deepgreen},
+frame=tb,                         % Any extra options here
+showstringspaces=false            % 
+}}
+
+% Python environment
+\lstnewenvironment{python}[1][]
+{
+\pythonstyle
+\lstset{#1}
+}
+{}
+
+% Python for external files
+\\newcommand\pythonexternal[2][]{{
+\pythonstyle
+\lstinputlisting[#1]{#2}}}
+
+% Python for inline
+\\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+
+\\begin{document}
+
+        '''
+        )
+        
+        f.write("\\input{main_input}")# %str(outfile))
+        f.write("\\end{document}")
+
+    return
+
+
 ########################################################################
 # Run main function if nothing specified
 ########################################################################
 
-#parser.add_option("-d" "--directory", action="get_base_dir")
+def compile_main_latex_file(outfile):
+
+    os.chdir('tmp')
+    
+    cmd = ["pdflatex", outfile]
+
+    c = subprocess.Popen(cmd)
+    c.communicate()
+
+    newfil = outfile.split('.tex')[0] + '.pdf'
+
+    shutil.copy2(newfil, '../')
+
+    return
+
 	
 if __name__ == "__main__":
 
