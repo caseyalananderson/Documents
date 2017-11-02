@@ -1,0 +1,175 @@
+\usetikzlibrary{backgrounds,calc}
+
+\newcommand{\yoff}{15}
+
+\pgfkeys{/tikz/.cd,
+  timespan/.store in=\timespan,
+  timespan=Week,
+  timeline width/.store in=\timelinewidth,
+  timeline width=20,
+  timeline height/.store in=\timelineheight,
+  timeline height=1,
+  timeline offset/.store in=\timelineoffset,
+  timeline offset=0.15,
+  initial week/.store in=\initialweek,
+  initial week=1,
+  end week/.store in=\endweek,
+  end week=2,
+  time point/.store in=\timepoint,
+  time point=0.5,
+  between day/.style args={#1 and #2 in #3}{% auxiliary style for days
+    initial week=#1,
+    end week=#2,
+    time point=#3,
+  },
+  between week/.style args={#1 and #2 in #3}{% style for weeks
+    initial week=#1,
+    end week=#2,
+    time point=#3,
+  },
+  between month/.style args={#1 and #2 in #3}{% auxiliary style for months
+    initial week=#1,
+    end week=#2,
+    time point=#3,
+  },
+  between year/.style args={#1 and #2 in #3}{% auxiliary style for years
+    initial week=#1,
+    end week=#2,
+    time point=#3,
+  },
+  involvement degree/.store in=\involvdegree,
+  involvement degree=2cm,
+  topphase color/.store in=\topphasecol,
+  topphase color=red!50!orange,
+  topphase appearance/.style={
+    semicircle,
+    opacity=0.3,
+    minimum size=\involvdegree,
+    fill=\topphasecol
+  },
+  botphase color/.store in=\botphasecol,
+  botphase color=red!50!orange,
+  botphase appearance/.style={
+    semicircle,
+    rotate=180,
+    opacity=0.3,
+    minimum size=\involvdegree,
+    fill=\botphasecol
+  },
+}
+
+% settings to customize aspect of timeline
+\newif\ifcustominterval
+\pgfkeys{/tikz/timeline/.cd,
+  custom interval/.is if=custominterval,
+  custom interval=false,
+}
+
+% settings to deploy botmilestones
+\pgfkeys{/tikz/botmilestone/.cd,
+  at/.store in=\msstartpoint,
+  at=botphase-1.north,
+  circle radius/.store in=\botmilestonecircleradius,
+  circle radius=0.1cm,
+  direction/.store in=\msdirection,
+  direction=90:2cm,
+  text/.store in={\mstext},
+  text={},
+  text options/.code={\tikzset{#1}},
+  text options={align=center},
+  %width=3cm,
+}
+
+% settings to deploy topmilestones
+\pgfkeys{/tikz/topmilestone/.cd,
+  at/.store in=\msstartpoint,
+  at=topphase-1.north,
+  circle radius/.store in=\topmilestonecircleradius,
+  circle radius=0.1cm,
+  direction/.store in=\msdirection,
+  direction=90:2cm,
+  text/.store in={\mstext},
+  text={},
+  text options/.code={\tikzset{#1}},
+  text options={align=center},
+  %width=3cm,
+}
+
+\newcommand{\reftimespan}{\MakeLowerCase{\timespan}}
+
+\newcommand{\timeline}[2][]{
+  \pgfkeys{/tikz/timeline/.cd,#1}
+  \draw[fill,opacity=0.8] (0,0) rectangle (\timelinewidth,\timelineheight);
+  \shade[top color=black, bottom color=white,middle color=black!20]
+    (0,0) rectangle (\timelinewidth,-\timelineoffset);
+  \shade[top color=white, bottom color=black,middle color=black!20]  
+    (0,\timelineheight) rectangle (\timelinewidth,\timelineheight+\timelineoffset);
+
+  \ifcustominterval%
+    \foreach \smitem [count=\xi] in {#2}  {\global\let\maxsmitem\xi}%
+  \else%
+    \foreach \smitem [count=\xi] in {1,...,#2}  {\global\let\maxsmitem\xi}%
+  \fi%
+  
+  \pgfmathsetmacro\position{\timelinewidth/(\maxsmitem+1)}
+  \node at (0,0.5\timelineheight)(\timespan-0){\phantom{Week 0}};
+ 
+  \ifcustominterval%
+    \foreach \x[count=\xi] in {#2}{%
+      \node[text=white,text depth=0pt]at +(\xi*\position,0.5\timelineheight) (\timespan-\xi) {\timespan\ \x};%
+    }%
+  \else%
+    \foreach \x[count=\xi] in {1,...,#2}{%
+      \node[text=white, text depth=0pt]at +(\xi*\position,0.5\timelineheight) (\timespan-\xi) {\timespan\ \x};%
+    }%
+  \fi%  
+}
+
+\newenvironment{topphases}{\begin{pgfonlayer}{background}}{\end{pgfonlayer}}
+%\newenvironment{botphases}{\begin{pgfonlayer}{background}}{\end{pgfonlayer}}
+
+\newcounter{involvtop}
+\setcounter{involvtop}{0}
+
+\newcommand{\topphase}[1]{
+\stepcounter{involvtop}
+\node[topphase appearance,#1] 
+ (topphase-\theinvolvtop)
+ at ($(\timespan-\initialweek)!\timepoint!(\timespan-\endweek)+(0,\involvdegree/2.5+\yoff)$){};
+}
+
+\newcommand{\initialtopphase}[1]{
+\node[topphase appearance,#1,anchor=west,between week=0 and 1 in 0,] 
+ (topphase-\theinvolvtop)
+ at ($(\timespan-0)!0!(\timespan-0)+(.4,\involvdegree/2.5+\yoff)$){};
+\setcounter{involvtop}{0} 
+}
+
+\newcommand{\addtopmilestone}[1]{
+\pgfkeys{/tikz/topmilestone/.cd,#1}
+\draw[double,fill] (\msstartpoint) circle [radius=\topmilestonecircleradius];
+\draw(\msstartpoint)--++(\msdirection) node[/tikz/topmilestone/text options]{\mstext};
+}
+
+\newcounter{involvbot}
+\setcounter{involvbot}{0}
+
+\newcommand{\botphase}[1]{
+\stepcounter{involvbot}
+\node[botphase appearance,#1] 
+ (botphase-\theinvolvbot)
+ at ($(\timespan-\initialweek)!\timepoint!(\timespan-\endweek)-(0,\involvdegree/2.5+\yoff)$){};
+}
+
+\newcommand{\initialbotphase}[1]{
+\node[botphase appearance,#1,anchor=west,between week=0 and 1 in 0,] 
+ (botphase-\theinvolvbot)
+ at ($(\timespan-0)!0!(\timespan-0)+(9.05,-\involvdegree/2.5-\yoff)$){};
+\setcounter{involvbot}{0} 
+}
+
+\newcommand{\addbotmilestone}[1]{
+\pgfkeys{/tikz/botmilestone/.cd,#1}
+\draw[double,fill] (\msstartpoint) circle [radius=\botmilestonecircleradius];
+\draw(\msstartpoint)--++(\msdirection) node[/tikz/botmilestone/text options]{\mstext};
+}
