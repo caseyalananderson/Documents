@@ -1,0 +1,228 @@
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 				%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+%\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage[big]{layaureo} 		% better formatting of the A4 page
+% an alternative to Lsayaureo can be ** \usepackage{fullpage} **
+\usepackage{fullpage}
+%\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}
+\usepackage{multirow}		%custom \section
+\usepackage{longtable}			% longtable
+\usepackage{hyperref} 			%Setup hyperref package, and colours for links
+\usepackage[shortlabels]{enumitem}   % vertical spacing for itemized list
+\usepackage[absolute]{textpos}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{tcolorbox}
+\usepackage{bibentry}
+\usepackage[backend=biber]{biblatex}
+\usepackage[none]{hyphenat} 		% Reduce hyphenation
+\usepackage{ragged2e} % justified text
+\usepackage[absolute]{textpos}
+\usepackage{fancyhdr}
+\usepackage{tikz}\usetikzlibrary{shapes.misc}
+\usepackage{mathtools}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Link Colors
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Fonts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+Path = ../includes/fonts/,
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+
+%\setlist{nolistsep}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+%\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+%\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+
+\thispagestyle{empty}
+%\usetikzlibrary{includes/timeline/timeline}
+\usetikzlibrary{shapes.geometric,positioning}
+
+\makeatletter
+
+\newcommand\myquote[2]{%
+	\begin{tikzpicture}
+	\node [rectangle, 
+	rounded corners, 
+	text centered, 
+	draw=black, 
+	dashed, 
+	font=\normalsize,
+	fill=white, 
+	text width=1.0\textwidth] at (0,0) {"#1" \\ \textbf{#2}};
+	\end{tikzpicture}
+	}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% This is for resume section black & gray
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\newcommand\resumesection[1]{%
+%        \tikz[baseline,trim left=0.0cm, trim right=0cm] {
+%        \fill [black!80] (0cm,-0.20cm) rectangle (\textwidth,0.5cm);
+%
+%        \node [
+%	    text centered,
+%	    font = \bf\Large\scshape,
+%	    text width = \textwidth,
+%            rectangle,
+%	    align = center,
+%	    text = white,
+%	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#1};
+%}}
+%
+%\newcommand\resumesubsection[2]{%
+%        \tikz[baseline,trim left=0.0cm, trim right=0cm] {
+%        \fill [black!12] (0cm,-0.20cm) rectangle (\textwidth,0.5cm);
+%        \node [
+%	    text centered,
+%	    font = \it\large,
+%	    text width = \textwidth,
+%            rectangle,
+%	    align = center,
+%	    text = black!80,
+%	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#1};
+%
+%        \node [
+%	    text centered,
+%	    font = \it\bf\normalsize,
+%	    text width = \textwidth,
+%	    align = right,
+%	    text = black!80,
+%	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#2};
+%}}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% This is for resume section black & gray
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\resumesection[1]{%
+        \tikz[baseline,trim left=0.0cm, trim right=0cm] {
+
+        \node [
+	    text centered,
+	    font = \bf\huge\scshape,
+	    text width = \textwidth,
+	    align = left,
+	    text = black,
+	    minimum height=3.0ex] at (0.5\textwidth,0.15) {#1};
+}
+\\[-1mm]
+\rule{\textwidth}{0.1mm}
+\\[-\baselineskip]
+}
+
+\newcommand\resumesubsection[2]{%
+        \tikz[baseline,trim left=0.0cm, trim right=0cm] {
+        \node [
+	    text centered,
+	    font = \it\Large,
+	    text width = \textwidth,
+	    align = left,
+	    text = black,
+	    minimum height=3.0ex] at (0.5\textwidth,0.15) {{\bf#1}  {\normalsize\it#2}};
+
+}
+\\[-\baselineskip]
+}
+
+
+\newcommand\fone{\textsuperscript{$*$}}
+\newcommand\ftwo{\textsuperscript{$\dagger$}}
+\newcommand\fthree{\textsuperscript{$\ddagger$}}
+\newcommand\ffour{\textsuperscript{$\S$}}
+\newcommand\ffive{\textsuperscript{$||$}}
+\newcommand\fsix{\textsuperscript{$\mathparagraph$}}
+
+\newcommand\none{\textsuperscript{1}}
+\newcommand\ntwo{\textsuperscript{2}}
+\newcommand\nthree{\textsuperscript{3}}
+\newcommand\nfour{\textsuperscript{4}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Skills (color, black0
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\highskillbw{
+	\tikz\draw[black,fill=black] (0,0) circle (.5ex);
+	}
+\newcommand\highskillcolor{
+	\tikz\draw[red,fill=red] (0,0) circle (.5ex);
+	}
+\newcommand\medskillbw{%
+	    \begin{tikzpicture}
+	     \fill[black] (0,0) -- (180:0.5ex) arc (180:0:0.5ex) -- cycle; 
+	     \draw[black] (0,0) circle (0.5ex);
+	    \end{tikzpicture}
+	}
+\newcommand\medskillcolor{
+	\tikz\draw[yellow,fill=yellow] (0,0) circle (.5ex);
+	}
+\newcommand\lowskillbw{
+	\tikz\draw[black,fill=white] (0,0) circle (.5ex);
+	}
+\newcommand\lowskillcolor{
+	\tikz\draw[blue,fill=blue] (0,0) circle (.5ex);
+	}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Itemized list margin/separation
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlist[itemize]{leftmargin=5.0mm,itemsep=1.9mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Margins
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addtolength{\topmargin}{-.55in}
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\textheight}{1.1in}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header and Footer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagestyle{fancy}
+%\fancyfoot[L]{(920)858-8783}
+%\fancyfoot[R]{\href{casey.alan.anderson@gmail.com}{casey.alan.anderson@gmail.com}}
+\fancyfoot[C]{Casey Anderson Resume, Page \thepage}
+\renewcommand{\headrulewidth}{0pt}

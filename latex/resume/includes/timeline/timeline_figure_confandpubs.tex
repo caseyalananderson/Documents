@@ -1,0 +1,174 @@
+%\hspace{-2.5cm}
+\begin{tikzpicture}[timespan={}]
+   %\timeline{5}
+   \draw (10,9) node {\huge Education \& Class History};
+   \draw (10,-6.5) node {\huge Work, Research \& Leadership History};
+   \timeline[custom interval=true]{2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017}
+   \begin{topphases}
+
+ 	\initialtopphase{involvement degree=4.62cm,topphase color=red!100!black}  % UW madison
+
+ 	\topphase{between month=2 and 6 in 0.48,
+   	involvement degree=2.72cm,topphase color=red!50!black}
+
+ 	\topphase{between month=4 and 6 in 0.3,
+   	involvement degree=1.586cm,topphase color=red!80!black}
+
+	% LANL (currently white to blank it out %
+ 	\topphase{between month=6 and 7 in 0.065,
+   	involvement degree=0.26cm,topphase color=white}
+
+ 	\topphase{between month=7 and 9 in 0.775,
+   	involvement degree=3.2cm,topphase color=green!90!black}
+
+ 	\topphase{between month=8 and 9 in 1.38,
+   	involvement degree=1.82cm,topphase color=green!30!black}
+
+	% MCNP6 Workshop
+ 	\topphase{between month=4 and 5 in 0.58,
+   	involvement degree=0.0001cm,topphase color=white}
+
+	%Abaqus Workshop
+ 	\topphase{between month=5 and 6 in 0.58,
+   	involvement degree=0.0001cm,topphase color=white}
+
+	% Dale Carnegie
+ 	\topphase{between month=5 and 6 in 0.70,
+   	involvement degree=0.0001cm,topphase color=white}
+
+	% GE MR Workshop
+ 	\topphase{between month=8 and 9 in 0.68,
+   	involvement degree=0.0001cm,topphase color=white}
+
+	% CPR Training
+ 	\topphase{between month=9 and 10 in 0.68,
+   	involvement degree=0.0001cm,topphase color=white}
+
+	% MCNP6 Advanced Workshop
+ 	\topphase{between month=10 and 11 in 0.52,
+   	involvement degree=0.0001cm,topphase color=white}
+
+	% Python Programming Workshop
+ 	\topphase{between month=4 and 5 in 0.78,
+   	involvement degree=0.0001cm,topphase color=white}
+
+	% American Nuclear society
+ 	\initialbotphase{involvement degree=2.62cm,botphase color=blue!30!black}  % UW madison
+
+ 	\botphase{between month=3 and 5 in 0.585,
+   	involvement degree=2.32cm,botphase color=blue!30!black}
+
+ 	\botphase{between month=4 and 6 in 0.43,
+   	involvement degree=1.18cm,botphase color=blue!80!black}
+
+	% Los Alamos National Laboratory
+ 	\botphase{between month=4 and 5 in 0.62,
+   	involvement degree=0.4cm,botphase color=orange!80!black}
+
+ 	\botphase{between month=6 and 7 in 0.095,
+   	involvement degree=0.9cm,botphase color=orange!100!black}
+
+	% MCW: Research
+ 	\botphase{between month=6 and 9 in 0.85,
+   	involvement degree=3.2cm,botphase color=purple!90!black}
+
+ 	\botphase{between month=7 and 9 in 0.95,
+   	involvement degree=2.61cm,botphase color=purple!90!black}
+
+ 	\botphase{between month=8 and 9 in 1.38,
+   	involvement degree=1.81cm,botphase color=purple!30!black}
+	
+	% lanl nen-5
+ 	\botphase{between month=9 and 10 in 1.8,
+   	involvement degree=0.58cm,botphase color=orange!100!black}
+
+   %\end{botphases}
+   \end{topphases}
+   %\node [xshift=-0.6cm,yshift=1cm,anchor=east,
+   %   	font=\Large\bfseries] at (topphase-0.180) {Auhor};
+   %\node [xshift=-0.6cm,yshift=-1cm,anchor=east,
+   %   	font=\Large\bfseries] at (topphase-0.180) {Publisher};
+   \begin{scope}{text options={above}}
+ 	%\addtopmilestone{at=topphase-0.120,direction=120:1cm,
+   	%text={Concept}}
+
+ 	\addtopmilestone{at=topphase-0.165,direction=120:1.2cm,
+   	text={University of \\ Wisconsin-Madison},text options={above,align=center},text options={text width=3.2cm}}
+
+ 	\addtopmilestone{at=topphase-1.155,direction=135:4.8cm,
+   	text={UW-Madison \\ College of Engineering: \\ Department of \\ Nuclear Engineering},text options={above,align=center},text options={text width=8cm}}
+
+ 	\addtopmilestone{at=topphase-2.140,direction=110:4.3cm,
+   	text={UW-Madison \\ Graduate School: \\  Nuclear Engineering \\ \& Engineering Physics},text options={above,align=center},text options={text width=7cm}}
+
+ 	%\addtopmilestone{at=topphase-3.90,direction=90:1.2cm,
+   	%text={Los Alamos National Laboratory},text options={above,align=center},text options={text width=2.4cm}}
+
+ 	\addtopmilestone{at=topphase-4.100,direction=90:1.3cm,
+   	text={Medical College of Wisconsin},text options={above,align=center},text options={text width=3cm}}
+
+ 	\addtopmilestone{at=topphase-5.85,direction=45:3.2cm,
+   	text={Medical College \\ of Wisconsin: \\ Department of Biophysics},text options={above,align=center},text options={text width=5cm}}
+
+% -------------------------- This are the workshops -----------------------
+	% MCNP6 Beginner Workshop
+ 	\addtopmilestone{at=topphase-6.90,direction=82:5.6cm,
+   	text={MCNP6 \\ Beginner \\ Workshop},text options={above,align=center},text options={text width=2cm}}
+
+	% Abaqus workshop
+ 	\addtopmilestone{at=topphase-7.90,direction=68:6.2cm,
+   	text={Introduction to \\ Abaqus Workshop},text options={above,align=center},text options={text width=5cm}}
+
+	% Dale Carnegie Training
+ 	\addtopmilestone{at=topphase-8.90,direction=50:3.8cm,
+   	text={Dale Carnegie \\ Training},text options={above,align=center},text options={text width=2cm}}
+
+	% General Electric MR Programming
+ 	\addtopmilestone{at=topphase-9.90,direction=75:6.0cm,
+   	text={General Electric MR \\ Programming Workshop},text options={above,align=center},text options={text width=5cm}}
+
+	% CPR training
+ 	\addtopmilestone{at=topphase-10.90,direction=45:3.2cm,
+   	text={CPR Training},text options={above,align=center},text options={text width=5cm}}
+
+	% MCNP6 Intermediate Workshop
+ 	\addtopmilestone{at=topphase-11.90,direction=20:1.6cm,
+   	text={MCNP6 \\ Intermediate \\ Workshop},text options={above,align=center},text options={text width=2cm}}
+
+	% Ptyon Programming
+ 	\addtopmilestone{at=topphase-12.90,direction=65:3.2cm,
+   	text={Python \\ Programming \\ Workshop},text options={above,align=center},text options={text width=2cm}}
+
+	% ------------------- Bottom Milestones -------------------------
+
+ 	\addbotmilestone{at=botphase-0.10,direction=08:-1.6cm,
+   	text={Member: American \\ Nuclear Society},text options={left,align=center},text options={text width=3.2cm}}
+
+ 	\addbotmilestone{at=botphase-1.30,direction=30:-2.0cm,
+   	text={Research: UW Department \\ of Medical Physics},text options={below,align=center},text options={text width=6cm}}
+
+ 	\addbotmilestone{at=botphase-2.40,direction=63:-3.4cm,
+   	text={President: American \\ Nuclear Society},text options={below,align=center},text options={text width=5cm}}
+
+ 	\addbotmilestone{at=botphase-3.110,direction=110:-2.3cm,
+   	text={Los Alamos \\ National \\ Laboratory \\ (XCP-3)},text options={below,align=center},text options={text width=4cm}}
+
+ 	\addbotmilestone{at=botphase-4.110,direction=110:-1.8cm,
+   	text={Los Alamos \\ National \\ Laboratory \\ (W-13)},text options={below,align=center},text options={text width=4cm}}
+
+ 	\addbotmilestone{at=botphase-5.55,direction=70:-2.0cm,
+   	text={Research: MCW \\ Department of Biophysics},text options={below,align=center},text options={text width=5cm}}
+
+ 	\addbotmilestone{at=botphase-6.80,direction=90:-1.2cm,
+   	text={Graduate Student \\ Council (GSC)},text options={below,align=center},text options={text width=4cm}}
+
+ 	\addbotmilestone{at=botphase-7.120,direction=130:-2.3cm,
+   	text={Biophysics \\ Representative,\\ IT Liason},text options={below,align=center},text options={text width=5cm}}
+
+ 	\addbotmilestone{at=botphase-8.120,direction=120:-1.0cm,
+   	text={Los Alamos \\ National \\ Laboratory \\ (NEN-5)},text options={below,align=center},text options={text width=4cm}}
+
+
+   \end{scope}
+\end{tikzpicture}
+

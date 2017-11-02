@@ -1,0 +1,506 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{abaqus_2012_paper}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
+           family={Goorley},
+           family_i={G\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+        {{hash=b32347ffc38a747fc86cedbe7cb4da4b}{%
+           family={Kelley},
+           family_i={K\bibinitperiod},
+           given={Karen},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ad0e097064026052cbbfe5996358a5fa}
+      \strng{fullhash}{ad0e097064026052cbbfe5996358a5fa}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 3DS Simulia Community Conference Proceedings}
+      \field{month}{05}
+      \field{title}{Mesh Human Phantoms with MCNP (LA-UR-12-01307)}
+      \field{venue}{Providence, Rhode Island}
+      \field{year}{2012}
+      \field{pages}{556\bibrangedash 568}
+      \range{pages}{13}
+    \endentry
+    \entry{ans_2012}{article}{}
+      \name{author}{3}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=b32347ffc38a747fc86cedbe7cb4da4b}{%
+           family={Kelley},
+           family_i={K\bibinitperiod},
+           given={Karen},
+           given_i={K\bibinitperiod}}}%
+        {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
+           family={Goorley},
+           family_i={G\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{93574bf31b8d47a7607054ed5c9a9593}
+      \strng{fullhash}{93574bf31b8d47a7607054ed5c9a9593}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the American Nuclear Society}
+      \field{title}{Unstructured mesh human phantoms with MCNP}
+      \field{volume}{106}
+      \field{year}{2012}
+      \field{pages}{50\bibrangedash 51}
+      \range{pages}{2}
+    \endentry
+    \entry{cmrr_2015_paper}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=cc66891d3619c2f0c75bb63f58b98ba7}{%
+           family={Koch},
+           family_i={K\bibinitperiod},
+           given={Kevin},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b31f42c01ea8b8869e9e3576329b213}
+      \strng{fullhash}{2b31f42c01ea8b8869e9e3576329b213}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2015 Minnesota Workshop on High and Ultra-High Field Imaging}
+      \field{month}{10}
+      \field{title}{Volume-parcellated Quantitative Susceptibility Mapping of the Human Brain at 7T}
+      \field{venue}{Minneapolis, Minnesota}
+      \field{year}{2015}
+    \endentry
+    \entry{ieee_nss_paper}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
+           family={McKinney},
+           family_i={M\bibinitperiod},
+           given={Gregg},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{581588258d0f64b34f6b948dd1ee0633}
+      \strng{fullhash}{581588258d0f64b34f6b948dd1ee0633}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 IEEE Nuclear Science Symposium and Medical Imaging Conference}
+      \field{month}{10}
+      \field{title}{MCNP6 Built-in High Level Detector Responses}
+      \field{venue}{Atlanta, Georgia}
+      \field{year}{2017}
+    \endentry
+    \entry{ismrm_2014_paper}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=a1dc1178402d625a7812d6d959579bad}{%
+           family={Pechman},
+           family_i={P\bibinitperiod},
+           given={Kimberley},
+           given_i={K\bibinitperiod}}}%
+        {{hash=49fc7e47468817d286888342b23860a1}{%
+           family={Schmainda},
+           family_i={S\bibinitperiod},
+           given={Kathleen},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a94f95c1a3d2858206fd2309e2c27d38}
+      \strng{fullhash}{a94f95c1a3d2858206fd2309e2c27d38}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the International Society of Magnetic Resonance in Medicine 22nd Conference}
+      \field{month}{05}
+      \field{title}{Quantitative Susceptibility Mapping to Assess Iron Levels in Rat Brain Tumors}
+      \field{venue}{Milan, Italy}
+      \field{year}{2014}
+    \endentry
+    \entry{caari_2016_paper_1}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=f824aefca490a400830b7a95254881d8}{%
+           family={Tutt},
+           family_i={T\bibinitperiod},
+           given={James},
+           given_i={J\bibinitperiod}}}%
+        {{hash=c6b04d878ee7d6f513229de1ce2cb0e4}{%
+           family={James},
+           family_i={J\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+        {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
+           family={McKinney},
+           family_i={M\bibinitperiod},
+           given={Gregg},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{fullhash}{4ecbee5f8d745955de637d2e58f78b3f}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{24th Conference on Applications of Accelerators in Research and Industry}
+      \strng{crossref}{caari_2016_main}
+      \field{month}{11}
+      \field{title}{Delta-ray production in MCNP6.2.0 (LA-UR-16-25402)}
+      \field{venue}{Forth Worth, Texas}
+      \field{year}{2016}
+    \endentry
+    \entry{ans_summer2017_paper}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
+           family={McKinney},
+           family_i={M\bibinitperiod},
+           given={Gregg},
+           given_i={G\bibinitperiod}}}%
+        {{hash=f824aefca490a400830b7a95254881d8}{%
+           family={Tutt},
+           family_i={T\bibinitperiod},
+           given={James},
+           given_i={J\bibinitperiod}}}%
+        {{hash=c6b04d878ee7d6f513229de1ce2cb0e4}{%
+           family={James},
+           family_i={J\bibinitperiod},
+           given={Mike},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{fullhash}{a0b53617c86acf478dc59aa21fe73e6a}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 27th American Nuclear Society Summer Meeting}
+      \strng{crossref}{ans_summer2017_main}
+      \field{title}{Neutron and Gamma Correlations using CGM in MCNP 6.2.0 (LA-UR-20353)}
+      \field{venue}{San Fransisco, California}
+      \field{year}{2017}
+    \endentry
+    \entry{ismrm_2016_paper}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=bc8466af0508b51ebbb48374ba1b7abf}{%
+           family={Nencka},
+           family_i={N\bibinitperiod},
+           given={Andrew},
+           given_i={A\bibinitperiod}}}%
+        {{hash=88de63ccaa85843d0971621ffe06a466}{%
+           family={Muftuler},
+           family_i={M\bibinitperiod},
+           given={Tugan},
+           given_i={T\bibinitperiod}}}%
+        {{hash=49fc7e47468817d286888342b23860a1}{%
+           family={Schmainda},
+           family_i={S\bibinitperiod},
+           given={Kathleen},
+           given_i={K\bibinitperiod}}}%
+        {{hash=cc66891d3619c2f0c75bb63f58b98ba7}{%
+           family={Koch},
+           family_i={K\bibinitperiod},
+           given={Kevin},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{fullhash}{2f2121ea3d2ef81983c1a1d9911b5d26}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the International Society of Magnetic Resonance in Medicine 24th Conference}
+      \field{month}{05}
+      \field{title}{Volume-Paracellated Quantitative Susceptibility Mapping}
+      \field{venue}{Singapore, Singapore}
+      \field{year}{2016}
+    \endentry
+    \entry{ans_summer2017_main}{proceedings}{}
+      \name{author}{1}{}{%
+        {{hash=4e062fc2814c180a9e08b1d204ab31bd}{%
+           family={ANS},
+           family_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e062fc2814c180a9e08b1d204ab31bd}
+      \strng{fullhash}{4e062fc2814c180a9e08b1d204ab31bd}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \true{crossrefsource}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 27th American Nuclear Society Summer Meeting}
+      \field{title}{Proceedings of the 27th American Nuclear Society Summer Meeting}
+      \field{venue}{San Fransisco, California}
+      \field{year}{2017}
+    \endentry
+    \entry{caari_2016_main}{proceedings}{}
+      \name{author}{1}{}{%
+        {{hash=665aa07b8a66b7a28db73c82d40cec2a}{%
+           family={CAARI},
+           family_i={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{665aa07b8a66b7a28db73c82d40cec2a}
+      \strng{fullhash}{665aa07b8a66b7a28db73c82d40cec2a}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \true{crossrefsource}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{24th Conference on Applications of Accelerators in Research and Industry}
+      \field{month}{11}
+      \field{title}{24th Conference on Applications of Accelerators in Research and Industry}
+      \field{venue}{Forth Worth, Texas}
+      \field{year}{2016}
+    \endentry
+    \entry{mcnp62_manual}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b196cfab1f918dcd1cca1befa53fe5b8}{%
+           family={Editors},
+           family_i={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \strng{fullhash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \field{sortinit}{E}
+      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LANL report}
+      \field{title}{MCNP6.2 User's Manual}
+      \field{year}{2017}
+    \endentry
+    \entry{useful_prompt_lacp}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
+           family={Goorley},
+           family_i={G\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=d09a634338b5aef2d0d307fa7e03b4ca}{%
+           prefix={et.},
+           prefix_i={e\bibinitperiod},
+           family={al},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ff841528da3ef62c11445502448d341}
+      \strng{fullhash}{5ff841528da3ef62c11445502448d341}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nuclear Weapons Effects User Group}
+      \field{title}{Useful prompt radiation applications and capabilities with MCNP6 (LA-CP-12-00490)}
+      \field{year}{2012}
+    \endentry
+    \entry{mcnp6_efforts_lacp}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
+           family={Goorley},
+           family_i={G\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+        {{hash=40d5bcccf16352613428090de5cf5548}{%
+           family={Bull},
+           family_i={B\bibinitperiod},
+           given={Jeff},
+           given_i={J\bibinitperiod}}}%
+        {{hash=d09a634338b5aef2d0d307fa7e03b4ca}{%
+           prefix={et.},
+           prefix_i={e\bibinitperiod},
+           family={al},
+           family_i={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6866be04d74595924b29fad3f2840ce}
+      \strng{fullhash}{a6866be04d74595924b29fad3f2840ce}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Nuclear Explosives Design Physics Conference 2011}
+      \field{month}{10}
+      \field{title}{MCNP6 Efforts for EMP, atmospheric dispersal, and unstructured mesh tracking (LA-CP-01705)}
+      \field{venue}{Los Alamos National Laboratory, Los Alamos, New Mexico}
+      \field{year}{2012}
+    \endentry
+    \entry{koch2016system}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=cc66891d3619c2f0c75bb63f58b98ba7}{%
+           family={Koch},
+           family_i={K\bibinitperiod},
+           given={Kevin},
+           given_i={K\bibinitperiod}}}%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Google Patents}%
+      }
+      \strng{namehash}{29eb8ba61808a5d51953fa51a82aa8bc}
+      \strng{fullhash}{29eb8ba61808a5d51953fa51a82aa8bc}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12~29}
+      \field{note}{WO Patent App. PCT/US2016/038,723}
+      \field{title}{System and method for localized processing of quantitative susceptibility maps in magnetic resonance imaging}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://www.google.com/patents/WO2016209930A1?cl=en
+      \endverb
+    \endentry
+    \entry{caari_2016_paper_2}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f824aefca490a400830b7a95254881d8}{%
+           family={Tutt},
+           family_i={T\bibinitperiod},
+           given={James},
+           given_i={J\bibinitperiod}}}%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
+           family={McKinney},
+           family_i={M\bibinitperiod},
+           given={Gregg},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{fullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{24th Conference on Applications of Accelerators in Research and Industry}
+      \strng{crossref}{caari_2016_main}
+      \field{month}{11}
+      \field{title}{Background-Source Cosmic-Photon Elevation Scaling and Cosmic-Neutron/Photon Date Scaling in MCNP6 (LA-UR-16-24928)}
+      \field{venue}{Forth Worth, Texas}
+      \field{year}{2016}
+    \endentry
+    \entry{ans_winter2016_paper}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f824aefca490a400830b7a95254881d8}{%
+           family={Tutt},
+           family_i={T\bibinitperiod},
+           given={James},
+           given_i={J\bibinitperiod}}}%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Casey},
+           given_i={C\bibinitperiod}}}%
+        {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
+           family={McKinney},
+           family_i={M\bibinitperiod},
+           given={Gregg},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{fullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 26th American Nuclear Society Winter Meeting}
+      \field{month}{10}
+      \field{title}{Delayed-Gamma Energy Biasing with Exact Energy Sampling in MCNP6.2.0 (LA-UR-16-24057)}
+      \field{venue}{Las Vegas, Nevada}
+      \field{year}{2016}
+    \endentry
+    \entry{ans_summer2017_jrt_paper}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f824aefca490a400830b7a95254881d8}{%
+           family={Tutt},
+           family_i={T\bibinitperiod},
+           given={James},
+           given_i={J\bibinitperiod}}}%
+        {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
+           family={McKinney},
+           family_i={M\bibinitperiod},
+           given={Gregg},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{26d32b4f524af7c518e9d6abe245f296}
+      \strng{fullhash}{26d32b4f524af7c518e9d6abe245f296}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 27th American Nuclear Society Summer Meeting}
+      \strng{crossref}{ans_summer2017_main}
+      \field{title}{Speed and Memory Improvements to MCNP6 Delayed-Gamma Line Treatment (LA-UR-21050)}
+      \field{venue}{San Fransisco, California}
+      \field{year}{2017}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
