@@ -1,20 +1,21 @@
-[0] Config.pm:343> INFO - This is Biber 2.5
-[0] Config.pm:346> INFO - Logfile is 'resume_main.blg'
-[40] biber:290> INFO - === Wed Nov  1, 2017, 21:43:45
-[133] Biber.pm:352> INFO - Reading 'resume_main.bcf'
-[281] Biber.pm:777> INFO - Found 15 citekeys in bib section 0
-[292] Biber.pm:3494> INFO - Processing section 0
-[304] Biber.pm:3658> INFO - Looking for bibtex format file '../includes/bibliography.bib' for section 0
-[336] bibtex.pm:1176> INFO - Decoding LaTeX character macros into UTF-8
-[356] bibtex.pm:1037> INFO - Found BibTeX data source '../includes/bibliography.bib'
-[383] Utils.pm:149> WARN - BibTeX subsystem: /tmp/lr6M20vXNw/bibliography.bib_23539.utf8, line 103, warning: undefined macro "june"
-[395] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_paper' cannot be null, deleting it
-[395] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_jrt_paper' cannot be null, deleting it
-[395] Utils.pm:149> WARN - The field 'month' in entry 'ans_summer2017_main' cannot be null, deleting it
-[425] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[425] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[425] Biber.pm:3307> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
-[425] Biber.pm:3311> INFO - No sort tailoring available for locale 'en-US'
-[446] bbl.pm:526> INFO - Writing 'resume_main.bbl' with encoding 'UTF-8'
-[522] bbl.pm:619> INFO - Output to resume_main.bbl
-[522] Biber.pm:109> INFO - WARNINGS: 4
+[0] Config.pm:302> INFO - This is Biber 2.10
+[0] Config.pm:305> INFO - Logfile is 'resume_main.blg'
+[19] biber:313> INFO - === Tue May  1, 2018, 16:34:32
+[42] Biber.pm:371> INFO - Reading 'resume_main.bcf'
+[91] Biber.pm:857> INFO - Found 15 citekeys in bib section 0
+[100] Biber.pm:3976> INFO - Processing section 0
+[106] Biber.pm:4136> INFO - Looking for bibtex format file '../includes/bibliography.bib' for section 0
+[108] bibtex.pm:1490> INFO - LaTeX decoding ...
+[125] bibtex.pm:1306> INFO - Found BibTeX data source '../includes/bibliography.bib'
+[183] Utils.pm:193> WARN - month field '12~29' in entry 'koch2016system' is not an integer - this will probably not sort properly.
+[184] Utils.pm:193> WARN - BibTeX subsystem: /tmp/h35Sx8cX4h/bibliography.bib_21574.utf8, line 103, warning: undefined macro "june"
+[186] Utils.pm:193> WARN - month field 'oct' in entry 'ieee_nss_main' is not an integer - this will probably not sort properly.
+[191] Utils.pm:193> WARN - month field 'nov' in entry 'caari_2016_main' is not an integer - this will probably not sort properly.
+[201] Utils.pm:193> WARN - month field 'oct' in entry 'nedpc' is not an integer - this will probably not sort properly.
+[221] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[221] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[221] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[221] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[236] bbl.pm:617> INFO - Writing 'resume_main.bbl' with encoding 'UTF-8'
+[240] bbl.pm:720> INFO - Output to resume_main.bbl
+[242] Biber.pm:110> INFO - WARNINGS: 5

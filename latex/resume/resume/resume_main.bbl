@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.7 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,33 +18,37 @@
 
 
 \refsection{0}
-  \sortlist[entry]{nty/global/}
+  \datalist[entry]{nty/global//global/global}
     \entry{abaqus_2012_paper}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
            family={Goorley},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={Tim},
-           given_i={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod}}}%
         {{hash=b32347ffc38a747fc86cedbe7cb4da4b}{%
            family={Kelley},
-           family_i={K\bibinitperiod},
+           familyi={K\bibinitperiod},
            given={Karen},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
       }
       \strng{namehash}{ad0e097064026052cbbfe5996358a5fa}
       \strng{fullhash}{ad0e097064026052cbbfe5996358a5fa}
+      \strng{bibnamehash}{ad0e097064026052cbbfe5996358a5fa}
+      \strng{authorbibnamehash}{ad0e097064026052cbbfe5996358a5fa}
+      \strng{authornamehash}{ad0e097064026052cbbfe5996358a5fa}
+      \strng{authorfullhash}{ad0e097064026052cbbfe5996358a5fa}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2012 3DS Simulia Community Conference Proceedings}
-      \field{month}{05}
+      \field{month}{5}
       \field{title}{Mesh Human Phantoms with MCNP (LA-UR-12-01307)}
       \field{venue}{Providence, Rhode Island}
       \field{year}{2012}
@@ -55,24 +59,28 @@
       \name{author}{3}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=b32347ffc38a747fc86cedbe7cb4da4b}{%
            family={Kelley},
-           family_i={K\bibinitperiod},
+           familyi={K\bibinitperiod},
            given={Karen},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
         {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
            family={Goorley},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={Tim},
-           given_i={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod}}}%
       }
       \strng{namehash}{93574bf31b8d47a7607054ed5c9a9593}
       \strng{fullhash}{93574bf31b8d47a7607054ed5c9a9593}
+      \strng{bibnamehash}{93574bf31b8d47a7607054ed5c9a9593}
+      \strng{authorbibnamehash}{93574bf31b8d47a7607054ed5c9a9593}
+      \strng{authornamehash}{93574bf31b8d47a7607054ed5c9a9593}
+      \strng{authorfullhash}{93574bf31b8d47a7607054ed5c9a9593}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transactions of the American Nuclear Society}
@@ -86,19 +94,23 @@
       \name{author}{2}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=cc66891d3619c2f0c75bb63f58b98ba7}{%
            family={Koch},
-           family_i={K\bibinitperiod},
+           familyi={K\bibinitperiod},
            given={Kevin},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
       }
       \strng{namehash}{2b31f42c01ea8b8869e9e3576329b213}
       \strng{fullhash}{2b31f42c01ea8b8869e9e3576329b213}
+      \strng{bibnamehash}{2b31f42c01ea8b8869e9e3576329b213}
+      \strng{authorbibnamehash}{2b31f42c01ea8b8869e9e3576329b213}
+      \strng{authornamehash}{2b31f42c01ea8b8869e9e3576329b213}
+      \strng{authorfullhash}{2b31f42c01ea8b8869e9e3576329b213}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2015 Minnesota Workshop on High and Ultra-High Field Imaging}
@@ -111,19 +123,23 @@
       \name{author}{2}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
            family={McKinney},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Gregg},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
       }
       \strng{namehash}{581588258d0f64b34f6b948dd1ee0633}
       \strng{fullhash}{581588258d0f64b34f6b948dd1ee0633}
+      \strng{bibnamehash}{581588258d0f64b34f6b948dd1ee0633}
+      \strng{authorbibnamehash}{581588258d0f64b34f6b948dd1ee0633}
+      \strng{authornamehash}{581588258d0f64b34f6b948dd1ee0633}
+      \strng{authorfullhash}{581588258d0f64b34f6b948dd1ee0633}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 IEEE Nuclear Science Symposium and Medical Imaging Conference}
@@ -136,28 +152,32 @@
       \name{author}{3}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=a1dc1178402d625a7812d6d959579bad}{%
            family={Pechman},
-           family_i={P\bibinitperiod},
+           familyi={P\bibinitperiod},
            given={Kimberley},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
         {{hash=49fc7e47468817d286888342b23860a1}{%
            family={Schmainda},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={Kathleen},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
       }
       \strng{namehash}{a94f95c1a3d2858206fd2309e2c27d38}
       \strng{fullhash}{a94f95c1a3d2858206fd2309e2c27d38}
+      \strng{bibnamehash}{a94f95c1a3d2858206fd2309e2c27d38}
+      \strng{authorbibnamehash}{a94f95c1a3d2858206fd2309e2c27d38}
+      \strng{authornamehash}{a94f95c1a3d2858206fd2309e2c27d38}
+      \strng{authorfullhash}{a94f95c1a3d2858206fd2309e2c27d38}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the International Society of Magnetic Resonance in Medicine 22nd Conference}
-      \field{month}{05}
+      \field{month}{5}
       \field{title}{Quantitative Susceptibility Mapping to Assess Iron Levels in Rat Brain Tumors}
       \field{venue}{Milan, Italy}
       \field{year}{2014}
@@ -166,29 +186,33 @@
       \name{author}{4}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=f824aefca490a400830b7a95254881d8}{%
            family={Tutt},
-           family_i={T\bibinitperiod},
+           familyi={T\bibinitperiod},
            given={James},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{hash=c6b04d878ee7d6f513229de1ce2cb0e4}{%
            family={James},
-           family_i={J\bibinitperiod},
+           familyi={J\bibinitperiod},
            given={Mike},
-           given_i={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod}}}%
         {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
            family={McKinney},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Gregg},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
       }
       \strng{namehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{fullhash}{4ecbee5f8d745955de637d2e58f78b3f}
+      \strng{bibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authorbibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authornamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authorfullhash}{4ecbee5f8d745955de637d2e58f78b3f}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{24th Conference on Applications of Accelerators in Research and Industry}
@@ -202,29 +226,33 @@
       \name{author}{4}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
            family={McKinney},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Gregg},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
         {{hash=f824aefca490a400830b7a95254881d8}{%
            family={Tutt},
-           family_i={T\bibinitperiod},
+           familyi={T\bibinitperiod},
            given={James},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{hash=c6b04d878ee7d6f513229de1ce2cb0e4}{%
            family={James},
-           family_i={J\bibinitperiod},
+           familyi={J\bibinitperiod},
            given={Mike},
-           given_i={M\bibinitperiod}}}%
+           giveni={M\bibinitperiod}}}%
       }
       \strng{namehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{fullhash}{a0b53617c86acf478dc59aa21fe73e6a}
+      \strng{bibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authorbibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authornamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authorfullhash}{a0b53617c86acf478dc59aa21fe73e6a}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 27th American Nuclear Society Summer Meeting}
@@ -237,38 +265,42 @@
       \name{author}{5}{}{%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=bc8466af0508b51ebbb48374ba1b7abf}{%
            family={Nencka},
-           family_i={N\bibinitperiod},
+           familyi={N\bibinitperiod},
            given={Andrew},
-           given_i={A\bibinitperiod}}}%
+           giveni={A\bibinitperiod}}}%
         {{hash=88de63ccaa85843d0971621ffe06a466}{%
            family={Muftuler},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Tugan},
-           given_i={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod}}}%
         {{hash=49fc7e47468817d286888342b23860a1}{%
            family={Schmainda},
-           family_i={S\bibinitperiod},
+           familyi={S\bibinitperiod},
            given={Kathleen},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
         {{hash=cc66891d3619c2f0c75bb63f58b98ba7}{%
            family={Koch},
-           family_i={K\bibinitperiod},
+           familyi={K\bibinitperiod},
            given={Kevin},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
       }
       \strng{namehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{fullhash}{2f2121ea3d2ef81983c1a1d9911b5d26}
+      \strng{bibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authorbibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authornamehash}{fef43ed0b5bf81dd0261452d856f8789}
+      \strng{authorfullhash}{2f2121ea3d2ef81983c1a1d9911b5d26}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the International Society of Magnetic Resonance in Medicine 24th Conference}
-      \field{month}{05}
+      \field{month}{5}
       \field{title}{Volume-Paracellated Quantitative Susceptibility Mapping}
       \field{venue}{Singapore, Singapore}
       \field{year}{2016}
@@ -277,12 +309,16 @@
       \name{author}{1}{}{%
         {{hash=4e062fc2814c180a9e08b1d204ab31bd}{%
            family={ANS},
-           family_i={A\bibinitperiod}}}%
+           familyi={A\bibinitperiod}}}%
       }
       \strng{namehash}{4e062fc2814c180a9e08b1d204ab31bd}
       \strng{fullhash}{4e062fc2814c180a9e08b1d204ab31bd}
+      \strng{bibnamehash}{4e062fc2814c180a9e08b1d204ab31bd}
+      \strng{authorbibnamehash}{4e062fc2814c180a9e08b1d204ab31bd}
+      \strng{authornamehash}{4e062fc2814c180a9e08b1d204ab31bd}
+      \strng{authorfullhash}{4e062fc2814c180a9e08b1d204ab31bd}
       \field{sortinit}{A}
-      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
       \true{crossrefsource}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -295,12 +331,16 @@
       \name{author}{1}{}{%
         {{hash=665aa07b8a66b7a28db73c82d40cec2a}{%
            family={CAARI},
-           family_i={C\bibinitperiod}}}%
+           familyi={C\bibinitperiod}}}%
       }
       \strng{namehash}{665aa07b8a66b7a28db73c82d40cec2a}
       \strng{fullhash}{665aa07b8a66b7a28db73c82d40cec2a}
+      \strng{bibnamehash}{665aa07b8a66b7a28db73c82d40cec2a}
+      \strng{authorbibnamehash}{665aa07b8a66b7a28db73c82d40cec2a}
+      \strng{authornamehash}{665aa07b8a66b7a28db73c82d40cec2a}
+      \strng{authorfullhash}{665aa07b8a66b7a28db73c82d40cec2a}
       \field{sortinit}{C}
-      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
       \true{crossrefsource}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -314,12 +354,16 @@
       \name{author}{1}{}{%
         {{hash=b196cfab1f918dcd1cca1befa53fe5b8}{%
            family={Editors},
-           family_i={E\bibinitperiod}}}%
+           familyi={E\bibinitperiod}}}%
       }
       \strng{namehash}{b196cfab1f918dcd1cca1befa53fe5b8}
       \strng{fullhash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \strng{bibnamehash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \strng{authorbibnamehash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \strng{authornamehash}{b196cfab1f918dcd1cca1befa53fe5b8}
+      \strng{authorfullhash}{b196cfab1f918dcd1cca1befa53fe5b8}
       \field{sortinit}{E}
-      \field{sortinithash}{fefc5210ef4721525b2a478df41efcd4}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{LANL report}
@@ -330,24 +374,28 @@
       \name{author}{3}{}{%
         {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
            family={Goorley},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={Tim},
-           given_i={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod}}}%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
-        {{hash=d09a634338b5aef2d0d307fa7e03b4ca}{%
-           prefix={et.},
-           prefix_i={e\bibinitperiod},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5f66fc009638b6765a863d3f9ad0eaa2}{%
            family={al},
-           family_i={a\bibinitperiod}}}%
+           familyi={a\bibinitperiod},
+           prefix={et.},
+           prefixi={e\bibinitperiod}}}%
       }
-      \strng{namehash}{5ff841528da3ef62c11445502448d341}
-      \strng{fullhash}{5ff841528da3ef62c11445502448d341}
+      \strng{namehash}{8c44223bef5123685a631675c0ae4998}
+      \strng{fullhash}{8c44223bef5123685a631675c0ae4998}
+      \strng{bibnamehash}{8c44223bef5123685a631675c0ae4998}
+      \strng{authorbibnamehash}{8c44223bef5123685a631675c0ae4998}
+      \strng{authornamehash}{8c44223bef5123685a631675c0ae4998}
+      \strng{authorfullhash}{8c44223bef5123685a631675c0ae4998}
       \field{sortinit}{G}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Weapons Effects User Group}
@@ -358,24 +406,28 @@
       \name{author}{3}{}{%
         {{hash=64bff94e2b6d6f9a2b821a543f8d7cc5}{%
            family={Goorley},
-           family_i={G\bibinitperiod},
+           familyi={G\bibinitperiod},
            given={Tim},
-           given_i={T\bibinitperiod}}}%
+           giveni={T\bibinitperiod}}}%
         {{hash=40d5bcccf16352613428090de5cf5548}{%
            family={Bull},
-           family_i={B\bibinitperiod},
+           familyi={B\bibinitperiod},
            given={Jeff},
-           given_i={J\bibinitperiod}}}%
-        {{hash=d09a634338b5aef2d0d307fa7e03b4ca}{%
-           prefix={et.},
-           prefix_i={e\bibinitperiod},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5f66fc009638b6765a863d3f9ad0eaa2}{%
            family={al},
-           family_i={a\bibinitperiod}}}%
+           familyi={a\bibinitperiod},
+           prefix={et.},
+           prefixi={e\bibinitperiod}}}%
       }
-      \strng{namehash}{a6866be04d74595924b29fad3f2840ce}
-      \strng{fullhash}{a6866be04d74595924b29fad3f2840ce}
+      \strng{namehash}{0dd92fe0e42fc8fd5e521e29790b5788}
+      \strng{fullhash}{0dd92fe0e42fc8fd5e521e29790b5788}
+      \strng{bibnamehash}{0dd92fe0e42fc8fd5e521e29790b5788}
+      \strng{authorbibnamehash}{0dd92fe0e42fc8fd5e521e29790b5788}
+      \strng{authornamehash}{0dd92fe0e42fc8fd5e521e29790b5788}
+      \strng{authorfullhash}{0dd92fe0e42fc8fd5e521e29790b5788}
       \field{sortinit}{G}
-      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Nuclear Explosives Design Physics Conference 2011}
@@ -388,28 +440,35 @@
       \name{author}{2}{}{%
         {{hash=cc66891d3619c2f0c75bb63f58b98ba7}{%
            family={Koch},
-           family_i={K\bibinitperiod},
+           familyi={K\bibinitperiod},
            given={Kevin},
-           given_i={K\bibinitperiod}}}%
+           giveni={K\bibinitperiod}}}%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Google Patents}%
       }
       \strng{namehash}{29eb8ba61808a5d51953fa51a82aa8bc}
       \strng{fullhash}{29eb8ba61808a5d51953fa51a82aa8bc}
+      \strng{bibnamehash}{29eb8ba61808a5d51953fa51a82aa8bc}
+      \strng{authorbibnamehash}{29eb8ba61808a5d51953fa51a82aa8bc}
+      \strng{authornamehash}{29eb8ba61808a5d51953fa51a82aa8bc}
+      \strng{authorfullhash}{29eb8ba61808a5d51953fa51a82aa8bc}
       \field{sortinit}{K}
-      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12~29}
       \field{note}{WO Patent App. PCT/US2016/038,723}
       \field{title}{System and method for localized processing of quantitative susceptibility maps in magnetic resonance imaging}
       \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.google.com/patents/WO2016209930A1?cl=en
+      \endverb
       \verb{url}
       \verb https://www.google.com/patents/WO2016209930A1?cl=en
       \endverb
@@ -418,24 +477,28 @@
       \name{author}{3}{}{%
         {{hash=f824aefca490a400830b7a95254881d8}{%
            family={Tutt},
-           family_i={T\bibinitperiod},
+           familyi={T\bibinitperiod},
            given={James},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
            family={McKinney},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Gregg},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
       }
       \strng{namehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \strng{fullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{bibnamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{authorbibnamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{authornamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{authorfullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \field{sortinit}{T}
-      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{24th Conference on Applications of Accelerators in Research and Industry}
@@ -449,24 +512,28 @@
       \name{author}{3}{}{%
         {{hash=f824aefca490a400830b7a95254881d8}{%
            family={Tutt},
-           family_i={T\bibinitperiod},
+           familyi={T\bibinitperiod},
            given={James},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
            family={Anderson},
-           family_i={A\bibinitperiod},
+           familyi={A\bibinitperiod},
            given={Casey},
-           given_i={C\bibinitperiod}}}%
+           giveni={C\bibinitperiod}}}%
         {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
            family={McKinney},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Gregg},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
       }
       \strng{namehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \strng{fullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{bibnamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{authorbibnamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{authornamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \strng{authorfullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \field{sortinit}{T}
-      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 26th American Nuclear Society Winter Meeting}
@@ -479,19 +546,23 @@
       \name{author}{2}{}{%
         {{hash=f824aefca490a400830b7a95254881d8}{%
            family={Tutt},
-           family_i={T\bibinitperiod},
+           familyi={T\bibinitperiod},
            given={James},
-           given_i={J\bibinitperiod}}}%
+           giveni={J\bibinitperiod}}}%
         {{hash=1419d58e7f32e66a90d767a68384b1a2}{%
            family={McKinney},
-           family_i={M\bibinitperiod},
+           familyi={M\bibinitperiod},
            given={Gregg},
-           given_i={G\bibinitperiod}}}%
+           giveni={G\bibinitperiod}}}%
       }
       \strng{namehash}{26d32b4f524af7c518e9d6abe245f296}
       \strng{fullhash}{26d32b4f524af7c518e9d6abe245f296}
+      \strng{bibnamehash}{26d32b4f524af7c518e9d6abe245f296}
+      \strng{authorbibnamehash}{26d32b4f524af7c518e9d6abe245f296}
+      \strng{authornamehash}{26d32b4f524af7c518e9d6abe245f296}
+      \strng{authorfullhash}{26d32b4f524af7c518e9d6abe245f296}
       \field{sortinit}{T}
-      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 27th American Nuclear Society Summer Meeting}
@@ -500,7 +571,7 @@
       \field{venue}{San Fransisco, California}
       \field{year}{2017}
     \endentry
-  \endsortlist
+  \enddatalist
 \endrefsection
 \endinput
 
