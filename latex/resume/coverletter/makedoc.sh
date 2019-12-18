@@ -12,4 +12,4 @@ $xe $tex
 $bi $bcf
 $xe $tex
 
-gnome-open $pdf
+evince $pdf

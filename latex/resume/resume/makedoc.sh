@@ -13,4 +13,5 @@ $bi $bcf
 $xe $tex
 
 #open $pdf
-gnome-open $pdf
+# gnome-open $pdf
+evince $pdf
