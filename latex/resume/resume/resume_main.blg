@@ -1,21 +1,22 @@
-[0] Config.pm:302> INFO - This is Biber 2.10
-[0] Config.pm:305> INFO - Logfile is 'resume_main.blg'
-[19] biber:313> INFO - === Tue May  1, 2018, 16:34:32
-[42] Biber.pm:371> INFO - Reading 'resume_main.bcf'
-[91] Biber.pm:857> INFO - Found 15 citekeys in bib section 0
-[100] Biber.pm:3976> INFO - Processing section 0
-[106] Biber.pm:4136> INFO - Looking for bibtex format file '../includes/bibliography.bib' for section 0
-[108] bibtex.pm:1490> INFO - LaTeX decoding ...
-[125] bibtex.pm:1306> INFO - Found BibTeX data source '../includes/bibliography.bib'
-[183] Utils.pm:193> WARN - month field '12~29' in entry 'koch2016system' is not an integer - this will probably not sort properly.
-[184] Utils.pm:193> WARN - BibTeX subsystem: /tmp/h35Sx8cX4h/bibliography.bib_21574.utf8, line 103, warning: undefined macro "june"
-[186] Utils.pm:193> WARN - month field 'oct' in entry 'ieee_nss_main' is not an integer - this will probably not sort properly.
-[191] Utils.pm:193> WARN - month field 'nov' in entry 'caari_2016_main' is not an integer - this will probably not sort properly.
-[201] Utils.pm:193> WARN - month field 'oct' in entry 'nedpc' is not an integer - this will probably not sort properly.
-[221] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[221] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[221] Biber.pm:3804> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[221] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[236] bbl.pm:617> INFO - Writing 'resume_main.bbl' with encoding 'UTF-8'
-[240] bbl.pm:720> INFO - Output to resume_main.bbl
-[242] Biber.pm:110> INFO - WARNINGS: 5
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is 'resume_main.blg'
+[24] biber:315> INFO - === Tue Dec 17, 2019, 20:20:09
+[45] Biber.pm:371> INFO - Reading 'resume_main.bcf'
+[103] Biber.pm:889> INFO - Found 15 citekeys in bib section 0
+[115] Biber.pm:4093> INFO - Processing section 0
+[125] Biber.pm:4254> INFO - Looking for bibtex format file '../includes/bibliography.bib' for section 0
+[126] bibtex.pm:1512> INFO - LaTeX decoding ...
+[150] bibtex.pm:1329> INFO - Found BibTeX data source '../includes/bibliography.bib'
+[158] Utils.pm:193> WARN - month field 'oct' in entry 'mcnp62_manual' is not an integer - this will probably not sort properly.
+[226] Utils.pm:193> WARN - month field '12~29' in entry 'koch2016system' is not an integer - this will probably not sort properly.
+[227] Utils.pm:193> WARN - BibTeX subsystem: /tmp/vDMo7pLi64/bibliography.bib_28788.utf8, line 104, warning: undefined macro "june"
+[230] Utils.pm:193> WARN - month field 'oct' in entry 'ieee_nss_main' is not an integer - this will probably not sort properly.
+[235] Utils.pm:193> WARN - month field 'nov' in entry 'caari_2016_main' is not an integer - this will probably not sort properly.
+[250] Utils.pm:193> WARN - month field 'oct' in entry 'nedpc' is not an integer - this will probably not sort properly.
+[279] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[279] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[279] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[279] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[299] bbl.pm:636> INFO - Writing 'resume_main.bbl' with encoding 'UTF-8'
+[305] bbl.pm:739> INFO - Output to resume_main.bbl
+[305] Biber.pm:110> INFO - WARNINGS: 6

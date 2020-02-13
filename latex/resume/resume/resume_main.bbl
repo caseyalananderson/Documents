@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.9 $
+% $ biblatex bbl format version 3.0 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -44,7 +44,7 @@
       \strng{authornamehash}{ad0e097064026052cbbfe5996358a5fa}
       \strng{authorfullhash}{ad0e097064026052cbbfe5996358a5fa}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2012 3DS Simulia Community Conference Proceedings}
@@ -80,7 +80,7 @@
       \strng{authornamehash}{93574bf31b8d47a7607054ed5c9a9593}
       \strng{authorfullhash}{93574bf31b8d47a7607054ed5c9a9593}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Transactions of the American Nuclear Society}
@@ -110,7 +110,7 @@
       \strng{authornamehash}{2b31f42c01ea8b8869e9e3576329b213}
       \strng{authorfullhash}{2b31f42c01ea8b8869e9e3576329b213}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2015 Minnesota Workshop on High and Ultra-High Field Imaging}
@@ -139,7 +139,7 @@
       \strng{authornamehash}{581588258d0f64b34f6b948dd1ee0633}
       \strng{authorfullhash}{581588258d0f64b34f6b948dd1ee0633}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2017 IEEE Nuclear Science Symposium and Medical Imaging Conference}
@@ -173,7 +173,7 @@
       \strng{authornamehash}{a94f95c1a3d2858206fd2309e2c27d38}
       \strng{authorfullhash}{a94f95c1a3d2858206fd2309e2c27d38}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the International Society of Magnetic Resonance in Medicine 22nd Conference}
@@ -211,8 +211,9 @@
       \strng{authorbibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{authornamehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{authorfullhash}{4ecbee5f8d745955de637d2e58f78b3f}
+      \field{extraname}{1}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{24th Conference on Applications of Accelerators in Research and Industry}
@@ -251,8 +252,9 @@
       \strng{authorbibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{authornamehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{authorfullhash}{a0b53617c86acf478dc59aa21fe73e6a}
+      \field{extraname}{2}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 27th American Nuclear Society Summer Meeting}
@@ -295,8 +297,9 @@
       \strng{authorbibnamehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{authornamehash}{fef43ed0b5bf81dd0261452d856f8789}
       \strng{authorfullhash}{2f2121ea3d2ef81983c1a1d9911b5d26}
+      \field{extraname}{3}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the International Society of Magnetic Resonance in Medicine 24th Conference}
@@ -318,7 +321,7 @@
       \strng{authornamehash}{4e062fc2814c180a9e08b1d204ab31bd}
       \strng{authorfullhash}{4e062fc2814c180a9e08b1d204ab31bd}
       \field{sortinit}{A}
-      \field{sortinithash}{d77c7cdd82ff690d4c3ef13216f92f0b}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \true{crossrefsource}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -340,7 +343,7 @@
       \strng{authornamehash}{665aa07b8a66b7a28db73c82d40cec2a}
       \strng{authorfullhash}{665aa07b8a66b7a28db73c82d40cec2a}
       \field{sortinit}{C}
-      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
       \true{crossrefsource}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
@@ -349,26 +352,6 @@
       \field{title}{24th Conference on Applications of Accelerators in Research and Industry}
       \field{venue}{Forth Worth, Texas}
       \field{year}{2016}
-    \endentry
-    \entry{mcnp62_manual}{article}{}
-      \name{author}{1}{}{%
-        {{hash=b196cfab1f918dcd1cca1befa53fe5b8}{%
-           family={Editors},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{b196cfab1f918dcd1cca1befa53fe5b8}
-      \strng{fullhash}{b196cfab1f918dcd1cca1befa53fe5b8}
-      \strng{bibnamehash}{b196cfab1f918dcd1cca1befa53fe5b8}
-      \strng{authorbibnamehash}{b196cfab1f918dcd1cca1befa53fe5b8}
-      \strng{authornamehash}{b196cfab1f918dcd1cca1befa53fe5b8}
-      \strng{authorfullhash}{b196cfab1f918dcd1cca1befa53fe5b8}
-      \field{sortinit}{E}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{LANL report}
-      \field{title}{MCNP6.2 User's Manual}
-      \field{year}{2017}
     \endentry
     \entry{useful_prompt_lacp}{misc}{}
       \name{author}{3}{}{%
@@ -382,20 +365,20 @@
            familyi={A\bibinitperiod},
            given={Casey},
            giveni={C\bibinitperiod}}}%
-        {{hash=5f66fc009638b6765a863d3f9ad0eaa2}{%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
            family={al},
            familyi={a\bibinitperiod},
            prefix={et.},
            prefixi={e\bibinitperiod}}}%
       }
-      \strng{namehash}{8c44223bef5123685a631675c0ae4998}
-      \strng{fullhash}{8c44223bef5123685a631675c0ae4998}
-      \strng{bibnamehash}{8c44223bef5123685a631675c0ae4998}
-      \strng{authorbibnamehash}{8c44223bef5123685a631675c0ae4998}
-      \strng{authornamehash}{8c44223bef5123685a631675c0ae4998}
-      \strng{authorfullhash}{8c44223bef5123685a631675c0ae4998}
+      \strng{namehash}{a07e6578afddccdad9ccafb352f932a9}
+      \strng{fullhash}{a07e6578afddccdad9ccafb352f932a9}
+      \strng{bibnamehash}{a07e6578afddccdad9ccafb352f932a9}
+      \strng{authorbibnamehash}{a07e6578afddccdad9ccafb352f932a9}
+      \strng{authornamehash}{a07e6578afddccdad9ccafb352f932a9}
+      \strng{authorfullhash}{a07e6578afddccdad9ccafb352f932a9}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Nuclear Weapons Effects User Group}
@@ -414,20 +397,20 @@
            familyi={B\bibinitperiod},
            given={Jeff},
            giveni={J\bibinitperiod}}}%
-        {{hash=5f66fc009638b6765a863d3f9ad0eaa2}{%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
            family={al},
            familyi={a\bibinitperiod},
            prefix={et.},
            prefixi={e\bibinitperiod}}}%
       }
-      \strng{namehash}{0dd92fe0e42fc8fd5e521e29790b5788}
-      \strng{fullhash}{0dd92fe0e42fc8fd5e521e29790b5788}
-      \strng{bibnamehash}{0dd92fe0e42fc8fd5e521e29790b5788}
-      \strng{authorbibnamehash}{0dd92fe0e42fc8fd5e521e29790b5788}
-      \strng{authornamehash}{0dd92fe0e42fc8fd5e521e29790b5788}
-      \strng{authorfullhash}{0dd92fe0e42fc8fd5e521e29790b5788}
+      \strng{namehash}{ab68aa7736aa6834aed1b97e83928eb1}
+      \strng{fullhash}{ab68aa7736aa6834aed1b97e83928eb1}
+      \strng{bibnamehash}{ab68aa7736aa6834aed1b97e83928eb1}
+      \strng{authorbibnamehash}{ab68aa7736aa6834aed1b97e83928eb1}
+      \strng{authornamehash}{ab68aa7736aa6834aed1b97e83928eb1}
+      \strng{authorfullhash}{ab68aa7736aa6834aed1b97e83928eb1}
       \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the Nuclear Explosives Design Physics Conference 2011}
@@ -459,7 +442,7 @@
       \strng{authornamehash}{29eb8ba61808a5d51953fa51a82aa8bc}
       \strng{authorfullhash}{29eb8ba61808a5d51953fa51a82aa8bc}
       \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{12~29}
@@ -497,8 +480,9 @@
       \strng{authorbibnamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \strng{authornamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \strng{authorfullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \field{extraname}{1}
       \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{24th Conference on Applications of Accelerators in Research and Industry}
@@ -532,8 +516,9 @@
       \strng{authorbibnamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \strng{authornamehash}{218c573d5d6f25c689c92dc0d9a2fb4b}
       \strng{authorfullhash}{218c573d5d6f25c689c92dc0d9a2fb4b}
+      \field{extraname}{2}
       \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 26th American Nuclear Society Winter Meeting}
@@ -562,13 +547,45 @@
       \strng{authornamehash}{26d32b4f524af7c518e9d6abe245f296}
       \strng{authorfullhash}{26d32b4f524af7c518e9d6abe245f296}
       \field{sortinit}{T}
-      \field{sortinithash}{6f7aff9db9dcfeb7f95fd5bbd2f78df9}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 27th American Nuclear Society Summer Meeting}
       \strng{crossref}{ans_summer2017_main}
       \field{title}{Speed and Memory Improvements to MCNP6 Delayed-Gamma Line Treatment (LA-UR-21050)}
       \field{venue}{San Fransisco, California}
+      \field{year}{2017}
+    \endentry
+    \entry{mcnp62_manual}{misc}{}
+      \name{author}{3}{}{%
+        {{hash=75d2ba94c6f9aa01995c7385e39b2137}{%
+           family={Werner},
+           familyi={W\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=011a276230df5e83c7fa1301b9bfd1e3}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Casey},
+           giveni={C\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al},
+           familyi={a\bibinitperiod},
+           prefix={et.},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f5ba8f48b7ab42e242e3455b01a80cd}
+      \strng{fullhash}{7f5ba8f48b7ab42e242e3455b01a80cd}
+      \strng{bibnamehash}{7f5ba8f48b7ab42e242e3455b01a80cd}
+      \strng{authorbibnamehash}{7f5ba8f48b7ab42e242e3455b01a80cd}
+      \strng{authornamehash}{7f5ba8f48b7ab42e242e3455b01a80cd}
+      \strng{authorfullhash}{7f5ba8f48b7ab42e242e3455b01a80cd}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{MCNP User's Manual Code Version 6.2 (LA-UR-17-29981)}
       \field{year}{2017}
     \endentry
   \enddatalist
