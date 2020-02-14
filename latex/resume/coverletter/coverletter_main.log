@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2019.11.7)  17 DEC 2019 21:36
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2019.11.7)  13 FEB 2020 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1399,12 +1399,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--16
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
@@ -1427,11 +1432,11 @@ Package logreq Info: Writing requests to 'coverletter_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44762 strings out of 492909
- 877199 string characters out of 6135047
- 1406582 words of memory out of 5000000
- 48309 multiletter control sequences out of 15000+600000
- 535350 words of font info for 53 fonts, out of 8000000 for 9000
+ 44760 strings out of 492909
+ 877114 string characters out of 6135047
+ 1405582 words of memory out of 5000000
+ 48308 multiletter control sequences out of 15000+600000
+ 535342 words of font info for 52 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
  56i,10n,73p,1205b,745s stack positions out of 5000i,500n,10000p,200000b,80000s
 

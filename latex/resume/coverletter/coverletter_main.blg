@@ -1,9 +1,9 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
-[1] Config.pm:307> INFO - Logfile is 'coverletter_main.blg'
-[34] biber:315> INFO - === Tue Dec 17, 2019, 21:36:38
-[63] Biber.pm:371> INFO - Reading 'coverletter_main.bcf'
-[136] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[143] Utils.pm:193> WARN - The file 'coverletter_main.bcf' does not contain any citations!
-[150] bbl.pm:636> INFO - Writing 'coverletter_main.bbl' with encoding 'UTF-8'
-[150] bbl.pm:739> INFO - Output to coverletter_main.bbl
-[150] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:307> INFO - Logfile is 'coverletter_main.blg'
+[22] biber:315> INFO - === Thu Feb 13, 2020, 17:29:26
+[43] Biber.pm:371> INFO - Reading 'coverletter_main.bcf'
+[100] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[106] Utils.pm:193> WARN - The file 'coverletter_main.bcf' does not contain any citations!
+[112] bbl.pm:636> INFO - Writing 'coverletter_main.bbl' with encoding 'UTF-8'
+[112] bbl.pm:739> INFO - Output to coverletter_main.bbl
+[112] Biber.pm:110> INFO - WARNINGS: 1

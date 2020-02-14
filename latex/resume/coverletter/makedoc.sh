@@ -12,4 +12,4 @@ $xe $tex
 $bi $bcf
 $xe $tex
 
-evince $pdf
+evince $pdf &
